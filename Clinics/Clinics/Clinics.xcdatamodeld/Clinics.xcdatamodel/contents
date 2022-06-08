@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17192" systemVersion="19F101" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="AdultClinics" representedClassName="AdultClinics" syncable="YES" codeGenerationType="class">
+        <attribute name="latitude" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="location" optional="YES" attributeType="String"/>
+        <attribute name="longitude" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <relationship name="job" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Jobs" inverseName="adultClinic" inverseEntity="Jobs"/>
+    </entity>
+    <entity name="ChildClinics" representedClassName="ChildClinics" syncable="YES" codeGenerationType="class">
+        <attribute name="latitude" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="location" optional="YES" attributeType="String"/>
+        <attribute name="longitude" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <relationship name="job" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Jobs" inverseName="childClinic" inverseEntity="Jobs"/>
+    </entity>
+    <entity name="Doctors" representedClassName="Doctors" syncable="YES" codeGenerationType="class">
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <relationship name="job" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Jobs" inverseName="doctor" inverseEntity="Jobs"/>
+        <relationship name="talon" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Talons" inverseName="doctor" inverseEntity="Talons"/>
+    </entity>
+    <entity name="Jobs" representedClassName="Jobs" syncable="YES" codeGenerationType="class">
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <relationship name="adultClinic" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="AdultClinics" inverseName="job" inverseEntity="AdultClinics"/>
+        <relationship name="childClinic" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="ChildClinics" inverseName="job" inverseEntity="ChildClinics"/>
+        <relationship name="doctor" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Doctors" inverseName="job" inverseEntity="Doctors"/>
+    </entity>
+    <entity name="MyTalons" representedClassName="MyTalons" syncable="YES" codeGenerationType="class">
+        <attribute name="cabinet" optional="YES" attributeType="Integer 32" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="date" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="job" optional="YES" attributeType="String"/>
+        <relationship name="user" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Users" inverseName="myTalon" inverseEntity="Users"/>
+    </entity>
+    <entity name="Talons" representedClassName="Talons" syncable="YES" codeGenerationType="class">
+        <attribute name="cabinet" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="date" optional="YES" attributeType="String"/>
+        <relationship name="doctor" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Doctors" inverseName="talon" inverseEntity="Doctors"/>
+    </entity>
+    <entity name="Users" representedClassName="Users" syncable="YES" codeGenerationType="class">
+        <relationship name="myTalon" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="MyTalons" inverseName="user" inverseEntity="MyTalons"/>
+    </entity>
+    <elements>
+        <element name="AdultClinics" positionX="-63" positionY="-18" width="128" height="118"/>
+        <element name="ChildClinics" positionX="-54" positionY="18" width="128" height="118"/>
+        <element name="Doctors" positionX="-18" positionY="63" width="128" height="88"/>
+        <element name="Jobs" positionX="-36" positionY="45" width="128" height="103"/>
+        <element name="MyTalons" positionX="-18" positionY="81" width="128" height="118"/>
+        <element name="Talons" positionX="0" positionY="81" width="128" height="88"/>
+        <element name="Users" positionX="-27" positionY="63" width="128" height="58"/>
+    </elements>
+</model>

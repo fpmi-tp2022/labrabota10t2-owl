@@ -1,0 +1,63 @@
+
+/* Class = "UIButton"; normalTitle = "Enter account"; ObjectID = "87V-HD-mRd"; */
+"87V-HD-mRd.normalTitle" = "Войти";
+
+/* Class = "UIButton"; normalTitle = "Register"; ObjectID = "Dgt-mA-n6N"; */
+"Dgt-mA-n6N.normalTitle" = "Зарегистрироваться";
+
+/* Class = "UILabel"; text = "Children's polyclinic"; ObjectID = "Fmp-i5-yLQ"; */
+"Fmp-i5-yLQ.text" = "Детская поликлиника";
+
+/* Class = "UILabel"; text = "Adult polyclinic"; ObjectID = "Tgr-0L-1qq"; */
+"Tgr-0L-1qq.text" = "Взрослая поликлиника";
+
+/* Class = "UIButton"; normalTitle = "Choose"; ObjectID = "Wug-gz-GLI"; */
+"Wug-gz-GLI.normalTitle" = "Выбрать";
+
+/* Class = "UITextField"; placeholder = "E-mail"; ObjectID = "cSP-9W-l5s"; */
+"cSP-9W-l5s.placeholder" = "E-mail";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "d9C-3k-ecj"; */
+"d9C-3k-ecj.text" = "Поле";
+
+/* Class = "UITextField"; placeholder = "Login"; ObjectID = "mnP-0V-aq4"; */
+"mnP-0V-aq4.placeholder" = "Логин";
+
+/* Class = "UILabel"; text = "I agree with the rules"; ObjectID = "nUh-li-7OK"; */
+"nUh-li-7OK.text" = "Согласен с правилами";
+
+/* Class = "UITextField"; placeholder = "Repeat password"; ObjectID = "nsk-Lg-H8r"; */
+"nsk-Lg-H8r.placeholder" = "Повторить пароль";
+
+/* Class = "UIButton"; normalTitle = "Save"; ObjectID = "o8X-M2-URj"; */
+"o8X-M2-URj.normalTitle" = "Сохранить";
+
+/* Class = "UISegmentedControl"; oFT-5m-VbV.segmentTitles[0] = "Log in"; ObjectID = "oFT-5m-VbV"; */
+"oFT-5m-VbV.segmentTitles[0]" = "Войти";
+
+/* Class = "UISegmentedControl"; oFT-5m-VbV.segmentTitles[1] = "Register"; ObjectID = "oFT-5m-VbV"; */
+"oFT-5m-VbV.segmentTitles[1]" = "Зарегистрироваться";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "oMB-uf-iFn"; */
+"oMB-uf-iFn.placeholder" = "Пароль";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "ode-Hr-FZi"; */
+"ode-Hr-FZi.text" = "Поле";
+
+/* Class = "UILabel"; text = "Adult polyclinic"; ObjectID = "q2Q-hE-6aT"; */
+"q2Q-hE-6aT.text" = "Взрослая поликлиника";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "ryO-JF-zs6"; */
+"ryO-JF-zs6.placeholder" = "Пароль";
+
+/* Class = "UIButton"; normalTitle = "Choose"; ObjectID = "uPb-JG-Sa3"; */
+"uPb-JG-Sa3.normalTitle" = "Выбрать";
+
+/* Class = "UIButton"; normalTitle = "Order talon"; ObjectID = "v9d-nj-9DC"; */
+"v9d-nj-9DC.normalTitle" = "Заказать талон";
+
+/* Class = "UITextField"; placeholder = "Login"; ObjectID = "wHX-13-dqI"; */
+"wHX-13-dqI.placeholder" = "Логин";
+
+/* Class = "UILabel"; text = "Children's polyclinic"; ObjectID = "xwc-W3-IEW"; */
+"xwc-W3-IEW.text" = "Детская поликлиника";

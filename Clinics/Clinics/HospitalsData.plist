@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>1st City Clinical Hospital</string>
+		<key>location</key>
+		<string>64 Nezavisimosti Ave., Minsk</string>
+		<key>departments</key>
+		<array>
+			<dict>
+				<key>departmentName</key>
+				<string>Department of Osteoporosis</string>
+				<key>image</key>
+				<string>1</string>
+			</dict>
+			<dict>
+				<key>departmentName</key>
+				<string>Obstetric Physiology Department</string>
+				<key>image</key>
+				<string>2</string>
+			</dict>
+			<dict>
+				<key>departmentName</key>
+				<string>Maternity ward</string>
+				<key>image</key>
+				<string>3</string>
+			</dict>
+			<dict>
+				<key>departmentName</key>
+				<string>Cardiology Department</string>
+				<key>image</key>
+				<string>4</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>2nd City Clinical Hospital</string>
+		<key>location</key>
+		<string>Engels str., 25, Minsk</string>
+		<key>departments</key>
+		<array>
+			<dict>
+				<key>departmentName</key>
+				<string>Reception Department</string>
+				<key>image</key>
+				<string>5</string>
+			</dict>
+			<dict>
+				<key>departmentName</key>
+				<string>Emergency Surgical Department</string>
+				<key>image</key>
+				<string>6</string>
+			</dict>
+			<dict>
+				<key>departmentName</key>
+				<string>Cardiology Department</string>
+				<key>image</key>
+				<string>7</string>
+			</dict>
+			<dict>
+				<key>departmentName</key>
+				<string>Pulmonology Department</string>
+				<key>image</key>
+				<string>8</string>
+			</dict>
+			<dict>
+				<key>departmentName</key>
+				<string>Neurological Department</string>
+				<key>image</key>
+				<string>9</string>
+			</dict>
+			<dict>
+				<key>departmentName</key>
+				<string>Rheumatology Department</string>
+				<key>image</key>
+				<string>10</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>6th City Clinical Hospital</string>
+		<key>location</key>
+		<string>Uralskaya str., 5, Minsk</string>
+		<key>departments</key>
+		<array>
+			<dict>
+				<key>departmentName</key>
+				<string>Reception department of therapy</string>
+				<key>image</key>
+				<string>5</string>
+			</dict>
+			<dict>
+				<key>departmentName</key>
+				<string>Rheumatology Department</string>
+				<key>image</key>
+				<string>10</string>
+			</dict>
+			<dict>
+				<key>departmentName</key>
+				<string>Emergency Department of Traumatology</string>
+				<key>image</key>
+				<string>11</string>
+			</dict>
+			<dict>
+				<key>departmentName</key>
+				<string>Surgical Department</string>
+				<key>image</key>
+				<string>6</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Minsk Scientific and Practical Center of Surgery, Transplantology and Hematology</string>
+		<key>location</key>
+		<string>8 Semashko str., Minsk</string>
+		<key>departments</key>
+		<array>
+			<dict>
+				<key>departmentName</key>
+				<string>Reception Department</string>
+				<key>image</key>
+				<string>12</string>
+			</dict>
+			<dict>
+				<key>departmentName</key>
+				<string>Anesthesiology and resuscitation</string>
+				<key>image</key>
+				<string>13</string>
+			</dict>
+			<dict>
+				<key>departmentName</key>
+				<string>Surgical clinic</string>
+				<key>image</key>
+				<string>14</string>
+			</dict>
+			<dict>
+				<key>departmentName</key>
+				<string>Therapeutic clinic</string>
+				<key>image</key>
+				<string>15</string>
+			</dict>
+			<dict>
+				<key>departmentName</key>
+				<string>Medical and diagnostic departments</string>
+				<key>image</key>
+				<string>16</string>
+			</dict>
+			<dict>
+				<key>departmentName</key>
+				<string>Laboratory service</string>
+				<key>image</key>
+				<string>17</string>
+			</dict>
+			<dict>
+				<key>departmentName</key>
+				<string>Extra-budgetary offices</string>
+				<key>image</key>
+				<string>18</string>
+			</dict>
+		</array>
+	</dict>
+</array>
+</plist>

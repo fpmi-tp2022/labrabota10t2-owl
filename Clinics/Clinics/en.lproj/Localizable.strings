@@ -1,0 +1,97 @@
+/* 
+  Localizable.strings
+  Clinics
+
+  Created by Mac on 6/8/22.
+  
+*/
+
+"1st City Clinical Hospital" = "1st City Clinical Hospital";
+"64 Nezavisimosti Ave., Minsk" = "64 Nezavisimosti Ave., Minsk";
+"Department of Osteoporosis" = "Department of Osteoporosis";
+"Obstetric Physiology Department" = "Obstetric Physiology Department";
+"Maternity ward" = "Maternity ward";
+"Cardiology Department" = "Cardiology Department";
+
+"2nd City Clinical Hospital" = "2nd City Clinical Hospital";
+"Engels str., 25, Minsk" = "Engels str., 25, Minsk";
+"Reception Department" = "Reception Department";
+"Emergency Surgical Department" = "Emergency Surgical Department";
+"Pulmonology Department" = "Pulmonology Department";
+"Neurological Department" = "Neurological Department";
+"Rheumatology Department" = "Rheumatology Department";
+
+"6th City Clinical Hospital" = "6th City Clinical Hospital";
+"Uralskaya str., 5, Minsk" = "Uralskaya str., 5, Minsk";
+"Reception department of therapy" = "Reception department of therapy";
+"Emergency Department of Traumatology" = "Emergency Department of Traumatology";
+"Surgical Department" = "Surgical Department";
+
+"Minsk Scientific and Practical Center of Surgery, Transplantology and Hematology" = "Minsk Scientific and Practical Center of Surgery, Transplantology and Hematology";
+"8 Semashko str., Minsk" = "8 Semashko str., Minsk";
+"Anesthesiology and resuscitation" = "Anesthesiology and resuscitation";
+"Surgical clinic" = "Surgical clinic";
+"Therapeutic clinic" = "Therapeutic clinic";
+"Medical and diagnostic departments" = "Medical and diagnostic departments";
+"Laboratory service" = "Laboratory service";
+"Extra-budgetary offices" = "Extra-budgetary offices";
+
+"40th city clinical polyclinic" = "40th city clinical polyclinic";
+"3 Lyutsinskaya str., Minsk" = "3 Lyutsinskaya str., Minsk";
+
+"26th city polyclinic" = "26th city polyclinic";
+"Kuntsevshchyna str. 8, Minsk" = "Kuntsevshchyna str. 8, Minsk";
+
+"4th city children's polyclinic" = "4th city children's polyclinic";
+"Nalibokskaya str. 15, Minsk" = "Nalibokskaya str. 15, Minsk";
+
+"5th city Children's Clinical polyclinic" = "5th city Children's Clinical polyclinic";
+"22 Kuntsevshchyna str., Minsk" = "22 Kuntsevshchyna str., Minsk";
+
+"June" = "June";
+
+"Ivanova Yulia Vladimirovna" = "Ivanova Yulia Vladimirovna";
+"Gorenkova Tatiana Vladimirovna" = "Gorenkova Tatiana Vladimirovna";
+"Ahapkina Anastasia Mikhailovna" = "Ahapkina Anastasia Mikhailovna";
+"Bernard Ulyana Konstantinovna" = "Bernard Ulyana Konstantinovna";
+"Kulik Svetlana Mikhailovna" = "Kulik Svetlana Mikhailovna";
+"Kosik Tatiana Silvestrovna" = "Kosik Tatiana Silvestrovna";
+
+"Ent" = "Ent";
+"Optometrist" = "Optometrist";
+"Therapist" = "Therapist";
+
+"Avdeyuk Alexandra Andreevna" = "Avdeyuk Alexandra Andreevna";
+"Kolondenok Vita Vitalievna" = "Kolondenok Vita Vitalievna";
+"Prigorovskaya Natalia Feodosievna" = "Prigorovskaya Natalia Feodosievna";
+
+"Stalkova Galina Vasilyevna" = "Stalkova Galina Vasilyevna";
+"Zachatko Elena Aleksandrovna" = "Zachatko Elena Aleksandrovna";
+"Didyulya Valery Pavlovich" = "Didyulya Valery Pavlovich";
+
+"Orthopedist" = "Orthopedist";
+"Dentist" = "Dentist";
+"Pediatrician" = "Pediatrician";
+
+"Ivanova Ulyana Dmitrievna" = "Ivanova Ulyana Dmitrievna";
+"Ivanova Svetlana Dmitrievna" = "Ivanova Svetlana Dmitrievna";
+
+"Neurologist" = "Neurologist";
+
+"My clinic" = "My clinic";
+"Children's polyclinic" = "Children's polyclinic";
+"Hospitals" = "Hospitals";
+"My talons" = "My talons";
+
+"Personal account" = "Personal account";
+"Ordering a talon" = "Ordering a talon";
+"Available talons" = "Available talons";
+
+"Your geolocation service is disabled" = "Your geolocation service is disabled";
+"Do you want to turn it on?" = "Do you want to turn it on?";
+"You have banned the use of location" = "You have banned the use of location";
+"Do you want to change this?" = "Do you want to change this?";
+"Settings" = "Settings";
+"Cancel" = "Cancel";
+
+"Cab" = "Cab";

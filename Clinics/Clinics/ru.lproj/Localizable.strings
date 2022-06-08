@@ -1,0 +1,97 @@
+/* 
+  Localizable.strings
+  Clinics
+
+  Created by Mac on 6/8/22.
+  
+*/
+
+"1st City Clinical Hospital" = "УЗ 1-я городская клиническая больница";
+"64 Nezavisimosti Ave., Minsk" = "пр. Независимости, д.64 г. Минск";
+"Department of Osteoporosis" = "Отделение остеопороза";
+"Obstetric Physiology Department" = "Акушерское физиологическое отделение";
+"Maternity ward" = "Родовое отделение";
+"Cardiology Department" = "Кардиологическое отделение";
+
+"2nd City Clinical Hospital" = "УЗ 2-я городская клиническая больница";
+"Engels str., 25, Minsk" = "ул. Энгельса, 25 г. Минск";
+"Reception Department" = "Приёмное отделение";
+"Emergency Surgical Department" = "Хирургическое отделение экстренное";
+"Pulmonology Department" = "Пульмонологическое отделение";
+"Neurological Department" = "Неврологическое отделение";
+"Rheumatology Department" = "Ревматологическое отделение";
+
+"6th City Clinical Hospital" = "УЗ 6-я городская клиническая больница";
+"Uralskaya str., 5, Minsk" = "ул. Уральская, 5 г. Минск";
+"Reception department of therapy" = "Приемное отделение терапии";
+"Emergency Department of Traumatology" = "Приемное отделение травматологии";
+"Surgical Department" = "Хирургическое отделение";
+
+"Minsk Scientific and Practical Center of Surgery, Transplantology and Hematology" = "ГУ Минский научно-практический центр хирургии, трансплантологии и гематологии";
+"8 Semashko str., Minsk" = "ул. Семашко, 8 г. Минск";
+"Anesthesiology and resuscitation" = "Анестезиология и реанимация";
+"Surgical clinic" = "Хирургическая клиника";
+"Therapeutic clinic" = "Терапевтическая клиника";
+"Medical and diagnostic departments" = "Лечебно-диагностические отделения";
+"Laboratory service" = "Лабораторная служба";
+"Extra-budgetary offices" = "Внебюджетные отделения";
+
+"40th city clinical polyclinic" = "УЗ \"40-я городская клиническая поликлиника\"";
+"3 Lyutsinskaya str., Minsk" = "ул. Люцинская 3, Минск";
+
+"26th city polyclinic" = "УЗ \"26-я городская поликлиника\"";
+"Kuntsevshchyna str. 8, Minsk" = "ул. Кунцевщина 8, Минск";
+
+"4th city children's polyclinic" = "УЗ \"4-я городская детская поликлиника\"";
+"Nalibokskaya str. 15, Minsk" = "ул. Налибокская 15, Минск";
+
+"5th city Children's Clinical polyclinic" = "УЗ \"5-я городская детская клиническая поликлиника\"";
+"22 Kuntsevshchyna str., Minsk" = "ул. Кунцевщина 22, Минск";
+
+"June" = "июня";
+
+"Ivanova Yulia Vladimirovna" = "Иванова Юлия Владимировна";
+"Gorenkova Tatiana Vladimirovna" = "Горенькова Татьяна Владимировна";
+"Ahapkina Anastasia Mikhailovna" = "Ахапкина Анастасия Михайловна";
+"Bernard Ulyana Konstantinovna" = "Бернард Ульяна Константиновна";
+"Kulik Svetlana Mikhailovna" = "Кулик Светлана Михайловна";
+"Kosik Tatiana Silvestrovna" = "Косик Татьяна Сильвестровна";
+
+"Ent" = "Лор";
+"Optometrist" = "Окулист";
+"Therapist" = "Терапевт";
+
+"Avdeyuk Alexandra Andreevna" = "Авдеюк Александра Андреевна";
+"Kolondenok Vita Vitalievna" = "Колонденок Вита Витальевна";
+"Prigorovskaya Natalia Feodosievna" = "Пригоровская Нататья Феодосьевна";
+
+"Stalkova Galina Vasilyevna" = "Сталькова Галина Васильевна";
+"Zachatko Elena Aleksandrovna" = "Зачатко Елена Александровна";
+"Didyulya Valery Pavlovich" = "Дедюля Валерий Павлович";
+
+"Orthopedist" = "Ортопед";
+"Dentist" = "Стоматолог";
+"Pediatrician" = "Педиатр";
+
+"Ivanova Ulyana Dmitrievna" = "Иванова Ульяна Дмитриевна";
+"Ivanova Svetlana Dmitrievna" = "Иванова Светлана Дмитриевна";
+
+"Neurologist" = "Невролог";
+
+"My clinic" = "Моя поликлиника";
+"Children's polyclinic" = "Детская поликилиника";
+"Hospitals" = "Больницы";
+"My talons" = "Мои талоны";
+
+"Personal account" = "Личный кабинет";
+"Ordering a talon" = "Заказ талона";
+"Available talons" = "Доступные талоны";
+
+"Your geolocation service is disabled" = "У вас выключена служба геолокации";
+"Do you want to turn it on?" = "Хотите включить?";
+"You have banned the use of location" = "Вы запретили использование местоположения";
+"Do you want to change this?" = "Хотите это изменить?";
+"Settings" = "Настройки";
+"Cancel" = "Отмена";
+
+"Cab" = "Каб";
