@@ -6,16 +6,23 @@
 //
 
 import XCTest
+import MapKit
 @testable import Clinics
 
 class ClinicsTests: XCTestCase {
 
+    var sut: MapViewController!
+    
     override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+        
+        try super.setUpWithError()
+        sut = MapViewController()
     }
 
     override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+        
+        sut = nil
+        try super.tearDownWithError()
     }
 
     func testExample() throws {
@@ -28,6 +35,22 @@ class ClinicsTests: XCTestCase {
         self.measure {
             // Put the code you want to measure the time of here.
         }
+    }
+    
+    func testChangeSelectedAdultClinicFunction() {
+        
+        let clinic = Clinic(name: "CLINIC", location: "LOCATION", coordinate: CLLocationCoordinate2D(latitude: 53.0, longitude: 25.0))
+        sut.adultClinicLabel = UILabel()
+        sut.changeSelectedAdultClinic(clinic: clinic)
+        XCTAssertEqual(sut.selectedAdultClinic, clinic, "Selected adult clinic has not changed")
+    }
+    
+    func testChangeSelectedChildClinicFunction() {
+        
+        let clinic = Clinic(name: "CHILDCLINIC", location: "LOCATION", coordinate: CLLocationCoordinate2D(latitude: 53.0, longitude: 25.0))
+        sut.childClinicLabel = UILabel()
+        sut.changeSelectedChildClinic(clinic: clinic)
+        XCTAssertEqual(sut.selectedChildClinic, clinic, "Selected child clinic has not changed")
     }
 
 }

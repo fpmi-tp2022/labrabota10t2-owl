@@ -26,8 +26,8 @@ class MapViewController: UIViewController, ChangeSelectedAdultClinicDelegate, Ch
     @IBOutlet weak var mapView: MKMapView!
     @IBOutlet weak var chooseAdultClinicButton: UIButton!
     @IBOutlet weak var chooseChildClinicButton: UIButton!
-    @IBOutlet weak var adultClinicLabel: UILabel!
-    @IBOutlet weak var childClinicLabel: UILabel!
+    @IBOutlet var adultClinicLabel: UILabel!
+    @IBOutlet var childClinicLabel: UILabel!
     
     // MARK: IBActions
     @IBAction func saveButton(_ sender: Any) {
