@@ -31,15 +31,6 @@ class ClinicsUITests: XCTestCase {
         // Use recording to get started writing UI tests.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
-
-    func testLaunchPerformance() throws {
-        if #available(macOS 10.15, iOS 13.0, tvOS 13.0, *) {
-            // This measures how long it takes to launch your application.
-            measure(metrics: [XCTApplicationLaunchMetric()]) {
-                XCUIApplication().launch()
-            }
-        }
-    }
     
     func testSegmentedControl() {
         
@@ -51,37 +42,56 @@ class ClinicsUITests: XCTestCase {
         
     }
     
-    func testLogIn() {
+    func testRegister() {
         
         let app = XCUIApplication()
         
-        let passwordField = app.secureTextFields["Password"]
-        let loginField = app.textFields["Login"]
+        app.segmentedControls.buttons["Register"].tap()
         
-        loginField.doubleTap()
-        loginField.typeText("1")
-        passwordField.doubleTap()
-        passwordField.typeText("3")
+        let loginTextField = app.textFields["Login"]
+        loginTextField.tap()
+        loginTextField.typeText("1")
         
-        app/*@START_MENU_TOKEN@*/.staticTexts["Enter account"]/*[[".buttons[\"Enter account\"].staticTexts[\"Enter account\"]",".staticTexts[\"Enter account\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/.tap()
+        let eMailTextField = app.textFields["E-mail"]
+        eMailTextField.tap()
+        eMailTextField.typeText("2")
+        
+        let passwordSecureTextField = app.secureTextFields["Password"]
+        passwordSecureTextField.tap()
+        passwordSecureTextField.typeText("3")
+        
+        let repeatPasswordSecureTextField = app.secureTextFields["Repeat password"]
+        repeatPasswordSecureTextField.tap()
+        repeatPasswordSecureTextField.typeText("3")
+        app/*@START_MENU_TOKEN@*/.staticTexts["Register"]/*[[".buttons.matching(identifier: \"Register\").staticTexts[\"Register\"]",".staticTexts[\"Register\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/.tap()
         
         XCTAssertTrue(app.buttons["Save"].exists)
-        
+                
     }
     
     func testHospitals() {
         
         let app = XCUIApplication()
         
-        let passwordField = app.secureTextFields["Password"]
-        let loginField = app.textFields["Login"]
+        app.segmentedControls.buttons["Register"].tap()
         
-        loginField.doubleTap()
-        loginField.typeText("1")
-        passwordField.doubleTap()
-        passwordField.typeText("3")
+        let loginTextField = app.textFields["Login"]
+        loginTextField.tap()
+        loginTextField.typeText("1")
         
-        app/*@START_MENU_TOKEN@*/.staticTexts["Enter account"]/*[[".buttons[\"Enter account\"].staticTexts[\"Enter account\"]",".staticTexts[\"Enter account\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/.tap()
+        let eMailTextField = app.textFields["E-mail"]
+        eMailTextField.tap()
+        eMailTextField.typeText("2")
+        
+        let passwordSecureTextField = app.secureTextFields["Password"]
+        passwordSecureTextField.tap()
+        passwordSecureTextField.typeText("3")
+        
+        let repeatPasswordSecureTextField = app.secureTextFields["Repeat password"]
+        repeatPasswordSecureTextField.tap()
+        repeatPasswordSecureTextField.typeText("3")
+        app/*@START_MENU_TOKEN@*/.staticTexts["Register"]/*[[".buttons.matching(identifier: \"Register\").staticTexts[\"Register\"]",".staticTexts[\"Register\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/.tap()
+        
         app/*@START_MENU_TOKEN@*/.staticTexts["Save"]/*[[".buttons[\"Save\"].staticTexts[\"Save\"]",".staticTexts[\"Save\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/.tap()
         
         let collectionViewsQuery = app.collectionViews
@@ -95,15 +105,24 @@ class ClinicsUITests: XCTestCase {
         
         let app = XCUIApplication()
         
-        let passwordField = app.secureTextFields["Password"]
-        let loginField = app.textFields["Login"]
+        app.segmentedControls.buttons["Register"].tap()
         
-        loginField.doubleTap()
-        loginField.typeText("1")
-        passwordField.doubleTap()
-        passwordField.typeText("3")
+        let loginTextField = app.textFields["Login"]
+        loginTextField.tap()
+        loginTextField.typeText("1")
         
-        app/*@START_MENU_TOKEN@*/.staticTexts["Enter account"]/*[[".buttons[\"Enter account\"].staticTexts[\"Enter account\"]",".staticTexts[\"Enter account\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/.tap()
+        let eMailTextField = app.textFields["E-mail"]
+        eMailTextField.tap()
+        eMailTextField.typeText("2")
+        
+        let passwordSecureTextField = app.secureTextFields["Password"]
+        passwordSecureTextField.tap()
+        passwordSecureTextField.typeText("3")
+        
+        let repeatPasswordSecureTextField = app.secureTextFields["Repeat password"]
+        repeatPasswordSecureTextField.tap()
+        repeatPasswordSecureTextField.typeText("3")
+        app/*@START_MENU_TOKEN@*/.staticTexts["Register"]/*[[".buttons.matching(identifier: \"Register\").staticTexts[\"Register\"]",".staticTexts[\"Register\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/.tap()
         
         let chooseStaticText = app.children(matching: .window).element(boundBy: 0).children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .button).matching(identifier: "Choose").element(boundBy: 0).staticTexts["Choose"]
         chooseStaticText.tap()
