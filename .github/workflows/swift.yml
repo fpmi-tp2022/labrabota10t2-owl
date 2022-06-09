@@ -8,5 +8,7 @@ jobs:
 
     steps:
       - uses: actions/checkout@v1
+      - name: Run tests
+        run: xcodebuild -project 'Clinics/Clinics.xcodeproj' -scheme 'Clinics' -destination 'platform=iOS Simulator,name=iPhone 12,OS=14.1' clean test
       - name: Build
         run: xcodebuild -project 'Clinics/Clinics.xcodeproj' -scheme 'Clinics' -destination 'generic/platform=iOS' -configuration Release build CODE_SIGNING_ALLOWED=NO
