@@ -9,13 +9,14 @@ import XCTest
 
 class ClinicsUITests: XCTestCase {
 
+    var app:XCUIApplication!
+    
     override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
 
-        // In UI tests it is usually best to stop immediately when a failure occurs.
+        try super.setUpWithError()
         continueAfterFailure = false
-
-        // In UI tests it’s important to set the initial state - such as interface orientation - required for your tests before they run. The setUp method is a good place to do this.
+        app = XCUIApplication()
+        app.launch()
     }
 
     override func tearDownWithError() throws {
@@ -38,5 +39,98 @@ class ClinicsUITests: XCTestCase {
                 XCUIApplication().launch()
             }
         }
+    }
+    
+    func testSegmentedControl() {
+        
+        let app = XCUIApplication()
+        app/*@START_MENU_TOKEN@*/.buttons["Register"]/*[[".segmentedControls.buttons[\"Register\"]",".buttons[\"Register\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/.tap()
+        app/*@START_MENU_TOKEN@*/.buttons["Log in"]/*[[".segmentedControls.buttons[\"Log in\"]",".buttons[\"Log in\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/.tap()
+        
+        XCTAssertTrue(app.buttons["Enter account"].exists)
+        
+    }
+    
+    func testLogIn() {
+        
+        let app = XCUIApplication()
+        
+        let passwordField = app.secureTextFields["Password"]
+        let loginField = app.textFields["Login"]
+        
+        loginField.doubleTap()
+        loginField.typeText("1")
+        passwordField.doubleTap()
+        passwordField.typeText("3")
+        
+        app/*@START_MENU_TOKEN@*/.staticTexts["Enter account"]/*[[".buttons[\"Enter account\"].staticTexts[\"Enter account\"]",".staticTexts[\"Enter account\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/.tap()
+        
+        XCTAssertTrue(app.buttons["Save"].exists)
+        
+    }
+    
+    func testHospitals() {
+        
+        let app = XCUIApplication()
+        
+        let passwordField = app.secureTextFields["Password"]
+        let loginField = app.textFields["Login"]
+        
+        loginField.doubleTap()
+        loginField.typeText("1")
+        passwordField.doubleTap()
+        passwordField.typeText("3")
+        
+        app/*@START_MENU_TOKEN@*/.staticTexts["Enter account"]/*[[".buttons[\"Enter account\"].staticTexts[\"Enter account\"]",".staticTexts[\"Enter account\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/.tap()
+        app/*@START_MENU_TOKEN@*/.staticTexts["Save"]/*[[".buttons[\"Save\"].staticTexts[\"Save\"]",".staticTexts[\"Save\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/.tap()
+        
+        let collectionViewsQuery = app.collectionViews
+        collectionViewsQuery/*@START_MENU_TOKEN@*/.staticTexts["Hospitals"]/*[[".cells.staticTexts[\"Hospitals\"]",".staticTexts[\"Hospitals\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/.tap()
+        app.tables/*@START_MENU_TOKEN@*/.cells.containing(.staticText, identifier:"1st City Clinical Hospital").element/*[[".cells.containing(.staticText, identifier:\"64 Nezavisimosti Ave., Minsk\").element",".cells.containing(.staticText, identifier:\"1st City Clinical Hospital\").element"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/.tap()
+        
+        XCTAssertTrue(collectionViewsQuery/*@START_MENU_TOKEN@*/.staticTexts["Department of Osteoporosis"]/*[[".cells.staticTexts[\"Department of Osteoporosis\"]",".staticTexts[\"Department of Osteoporosis\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/.exists)
+    }
+    
+    func testOrderingTalon() {
+        
+        let app = XCUIApplication()
+        
+        let passwordField = app.secureTextFields["Password"]
+        let loginField = app.textFields["Login"]
+        
+        loginField.doubleTap()
+        loginField.typeText("1")
+        passwordField.doubleTap()
+        passwordField.typeText("3")
+        
+        app/*@START_MENU_TOKEN@*/.staticTexts["Enter account"]/*[[".buttons[\"Enter account\"].staticTexts[\"Enter account\"]",".staticTexts[\"Enter account\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/.tap()
+        
+        let chooseStaticText = app.children(matching: .window).element(boundBy: 0).children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .button).matching(identifier: "Choose").element(boundBy: 0).staticTexts["Choose"]
+        chooseStaticText.tap()
+        
+        let tablesQuery = app.popovers.tables
+        tablesQuery/*@START_MENU_TOKEN@*/.staticTexts["40th city clinical polyclinic"]/*[[".cells.staticTexts[\"40th city clinical polyclinic\"]",".staticTexts[\"40th city clinical polyclinic\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/.tap()
+        app/*@START_MENU_TOKEN@*/.otherElements["PopoverDismissRegion"]/*[[".otherElements[\"dismiss popup\"]",".otherElements[\"PopoverDismissRegion\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/.tap()
+        app/*@START_MENU_TOKEN@*/.staticTexts["Save"]/*[[".buttons[\"Save\"].staticTexts[\"Save\"]",".staticTexts[\"Save\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/.tap()
+        
+        let collectionViewsQuery = app.collectionViews
+        collectionViewsQuery/*@START_MENU_TOKEN@*/.staticTexts["My clinic"]/*[[".cells.staticTexts[\"My clinic\"]",".staticTexts[\"My clinic\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/.tap()
+        app/*@START_MENU_TOKEN@*/.staticTexts["Order talon"]/*[[".buttons[\"Order talon\"].staticTexts[\"Order talon\"]",".staticTexts[\"Order talon\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/.tap()
+        
+        let tablesQuery2 = app.tables
+        tablesQuery2/*@START_MENU_TOKEN@*/.staticTexts["Therapist"]/*[[".cells.staticTexts[\"Therapist\"]",".staticTexts[\"Therapist\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/.tap()
+        tablesQuery2/*@START_MENU_TOKEN@*/.staticTexts["Ivanova Yulia Vladimirovna"]/*[[".cells.staticTexts[\"Ivanova Yulia Vladimirovna\"]",".staticTexts[\"Ivanova Yulia Vladimirovna\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/.tap()
+        
+        let cellsQuery = tablesQuery2.cells.containing(.staticText, identifier:"08:00 25 June")
+        cellsQuery/*@START_MENU_TOKEN@*/.staticTexts["Order"]/*[[".buttons[\"Order\"].staticTexts[\"Order\"]",".staticTexts[\"Order\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/.tap()
+        app.navigationBars["Available talons"].buttons["Therapist"].tap()
+        app.navigationBars["Therapist"].buttons["Ordering a talon"].tap()
+        app.navigationBars["Ordering a talon"].buttons["My clinic"].tap()
+        app.navigationBars["My clinic"].buttons["Personal account"].tap()
+        collectionViewsQuery/*@START_MENU_TOKEN@*/.staticTexts["My talons"]/*[[".cells.staticTexts[\"My talons\"]",".staticTexts[\"My talons\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/.tap()
+        
+        XCTAssertTrue(app.tables.cells.containing(.staticText, identifier:"08:00 25 June").staticTexts["Ivanova Yulia Vladimirovna"].exists)
+        cellsQuery/*@START_MENU_TOKEN@*/.staticTexts["Delete"]/*[[".buttons[\"Delete\"].staticTexts[\"Delete\"]",".staticTexts[\"Delete\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/.tap()
+        
     }
 }
