@@ -6,7 +6,6 @@
 [Дополнительная спецификация](additionalSpecification.md)   
 [Схема базы данных](databaseSchema.md)  
 [Презентация проекта](projectPresentation.md)          
-[Ссылки на репозитории по курсу о GitHub Pages](linksToRepositories.md)   
 
 # Схема базы данных
 
