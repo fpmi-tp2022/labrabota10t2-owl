@@ -1,0 +1,97 @@
+/* 
+  Localizable.strings
+  Clinics
+
+  Created by Mac on 6/8/22.
+  
+*/
+
+"1st City Clinical Hospital" = "1-а міська клінічна лікарня";
+"64 Nezavisimosti Ave., Minsk" = "Пр. Незалежності, 64, Мінськ";
+"Department of Osteoporosis" = "Відділення остеопорозу";
+"Obstetric Physiology Department" = "Відділення акушерської фізіології";
+"Maternity ward" = "Пологове відділення";
+"Cardiology Department" = "Кардіологічне відділення";
+
+"2nd City Clinical Hospital" = "2-а міська клінічна лікарня";
+"Engels str., 25, Minsk" = "Вул. Енгельса, 25, Мінськ";
+"Reception Department" = "Приймальний відділ";
+"Emergency Surgical Department" = "Відділення невідкладної хірургії";
+"Pulmonology Department" = "Пульмонологічне відділення";
+"Neurological Department" = "Неврологічне відділення";
+"Rheumatology Department" = "Ревматологічне відділення";
+
+"6th City Clinical Hospital" = "6-а міська клінічна лікарня";
+"Uralskaya str., 5, Minsk" = "Вул. Уральська, 5, Мінськ";
+"Reception department of therapy" = "Приймальне відділення терапії";
+"Emergency Department of Traumatology" = "Відділення невідкладної допомоги травматології";
+"Surgical Department" = "Хірургічне відділення";
+
+"Minsk Scientific and Practical Center of Surgery, Transplantology and Hematology" = "Мінський Науково-практичний центр хірургії, трансплантології та гематології";
+"8 Semashko str., Minsk" = "Вул. Семашко, 8, Мінськ";
+"Anesthesiology and resuscitation" = "Анестезіологія та реаніматологія";
+"Surgical clinic" = "Хірургічна клініка";
+"Therapeutic clinic" = "Терапевтична клініка";
+"Medical and diagnostic departments" = "Лікувально-діагностичні відділення";
+"Laboratory service" = "Лабораторна служба";
+"Extra-budgetary offices" = "Позабюджетні відділення";
+
+"40th city clinical polyclinic" = "40-та Міська клінічна поліклініка";
+"3 Lyutsinskaya str., Minsk" = "Вул. Люцинська, 3, Мінськ";
+
+"26th city polyclinic" = "26-а міська поліклініка";
+"Kuntsevshchyna str. 8, Minsk" = "Вул. Кунцевщина, 8, Мінськ";
+
+"4th city children's polyclinic" = "4-я Міська дитяча поліклініка";
+"Nalibokskaya str. 15, Minsk" = "Вул. Налібокська, 15, Мінськ";
+
+"5th city Children's Clinical polyclinic" = "5-а Міська дитяча клінічна поліклініка";
+"22 Kuntsevshchyna str., Minsk" = "Вул. Кунцевщина, 22, Мінськ";
+
+"June" = "Червень";
+
+"Ivanova Yulia Vladimirovna" = "Іванова Юлія Володимирівна";
+"Gorenkova Tatiana Vladimirovna" = "Горенкова Тетяна Володимирівна";
+"Ahapkina Anastasia Mikhailovna" = "Ахапкіна Анастасія Михайлівна";
+"Bernard Ulyana Konstantinovna" = "Бернард Уляна Костянтинівна";
+"Kulik Svetlana Mikhailovna" = "Кулик Світлана Михайлівна";
+"Kosik Tatiana Silvestrovna" = "Косик Тетяна Сильвестрівна";
+
+"Ent" = "Лор";
+"Optometrist" = "Окуліст";
+"Therapist" = "Терапевт";
+
+"Avdeyuk Alexandra Andreevna" = "Авдеюк Олександра Андріївна";
+"Kolondenok Vita Vitalievna" = "Колонденок Вiта Вiталiiвна";
+"Prigorovskaya Natalia Feodosievna" = "Пригоровская Нататья Феодосіївна";
+
+"Stalkova Galina Vasilyevna" = "Сталькова Галина Василівна";
+"Zachatko Elena Aleksandrovna" = "Зачатко Олена Олександрівна";
+"Didyulya Valery Pavlovich" = "Дедюля Валерій Павлович";
+
+"Orthopedist" = "Ортопед";
+"Dentist" = "Стоматолог";
+"Pediatrician" = "Педіатр";
+
+"Ivanova Ulyana Dmitrievna" = "Іванова Уляна Дмитрівна";
+"Ivanova Svetlana Dmitrievna" = "Іванова Світлана Дмитрівна";
+
+"Neurologist" = "Невролог";
+
+"My clinic" = "Моя поліклініка";
+"Children's polyclinic" = "Дитяча полікілініка";
+"Hospitals" = "Лікарні";
+"My talons" = "Мої талони";
+
+"Personal account" = "Особистий кабінет";
+"Ordering a talon" = "Замовлення талона";
+"Available talons" = "Доступні талони";
+
+"Your geolocation service is disabled" = "У вас вимкнена служба геолокації";
+"Do you want to turn it on?" = "Хочете включити?";
+"You have banned the use of location" = "Ви заборонили використання місця розташування";
+"Do you want to change this?" = "Хочете це змінити?";
+"Settings" = "Настройка";
+"Cancel" = "Відмінивши";
+
+"Cab" = "Каб";

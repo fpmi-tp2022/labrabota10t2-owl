@@ -1,0 +1,8 @@
+title: Clinics
+author: Иванова Мария 
+description: > # this means to ignore newlines until "baseurl:"
+  Проект "Clinics"
+
+show_excerpts: true # set to false to remove excerpts on the homepage
+
+theme: jekyll-theme-cayman
